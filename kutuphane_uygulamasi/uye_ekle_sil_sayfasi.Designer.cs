@@ -178,7 +178,7 @@
             // 
             this.add_button.Animated = true;
             this.add_button.AutoRoundedCorners = true;
-            this.add_button.BackColor = System.Drawing.Color.Transparent;
+            this.add_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
             this.add_button.BorderRadius = 10;
             this.add_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.add_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -201,7 +201,7 @@
             // 
             this.delete_button.Animated = true;
             this.delete_button.AutoRoundedCorners = true;
-            this.delete_button.BackColor = System.Drawing.Color.Transparent;
+            this.delete_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
             this.delete_button.BorderRadius = 10;
             this.delete_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.delete_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -236,6 +236,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
             this.Controls.Add(this.guna2ShadowPanel1);
             this.Controls.Add(this.delete_button);
             this.Controls.Add(this.add_button);

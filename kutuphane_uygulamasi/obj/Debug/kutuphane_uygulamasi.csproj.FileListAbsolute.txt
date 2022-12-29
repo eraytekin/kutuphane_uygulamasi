@@ -32,3 +32,4 @@ C:\Users\erayt\source\repos\kutuphane_uygulamasi-main\kutuphane_uygulamasi\obj\D
 C:\Users\erayt\source\repos\kutuphane_uygulamasi-main\kutuphane_uygulamasi\obj\Debug\kutuphane_uygulamasi.exe
 C:\Users\erayt\source\repos\kutuphane_uygulamasi-main\kutuphane_uygulamasi\obj\Debug\kutuphane_uygulamasi.pdb
 C:\Users\erayt\source\repos\kutuphane_uygulamasi-main\kutuphane_uygulamasi\bin\Debug\Guna.UI2.dll
+C:\Users\erayt\source\repos\kutuphane_uygulamasi-main\kutuphane_uygulamasi\obj\Debug\kutuphane_uygulamasi.bos_sayfa.resources

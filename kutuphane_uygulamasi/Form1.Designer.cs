@@ -42,8 +42,10 @@
             this.kitap_al_iade_et_sayfasi1 = new kutuphane_uygulamasi.kitap_al_iade_et_sayfasi();
             this.kitaplar_sayfasi1 = new kutuphane_uygulamasi.kitaplar_sayfasi();
             this.uye_ekle_sil_sayfasi1 = new kutuphane_uygulamasi.uye_ekle_sil_sayfasi();
+            this.kitaplar_sayfasi2 = new kutuphane_uygulamasi.kitaplar_sayfasi();
+            this.kitap_al_iade_et_sayfasi2 = new kutuphane_uygulamasi.kitap_al_iade_et_sayfasi();
             this.uye_ekle_sil_sayfasi2 = new kutuphane_uygulamasi.uye_ekle_sil_sayfasi();
-            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            this.bos_sayfa1 = new kutuphane_uygulamasi.bos_sayfa();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -197,46 +199,73 @@
             // 
             // kitap_al_iade_et_sayfasi1
             // 
-            this.kitap_al_iade_et_sayfasi1.Location = new System.Drawing.Point(32720, 6402);
-            this.kitap_al_iade_et_sayfasi1.Margin = new System.Windows.Forms.Padding(1164, 872, 1164, 872);
+            this.kitap_al_iade_et_sayfasi1.Location = new System.Drawing.Point(32720, 8372);
+            this.kitap_al_iade_et_sayfasi1.Margin = new System.Windows.Forms.Padding(1552, 1140, 1552, 1140);
             this.kitap_al_iade_et_sayfasi1.Name = "kitap_al_iade_et_sayfasi1";
             this.kitap_al_iade_et_sayfasi1.Size = new System.Drawing.Size(65535, 65535);
             this.kitap_al_iade_et_sayfasi1.TabIndex = 4;
             // 
             // kitaplar_sayfasi1
             // 
-            this.kitaplar_sayfasi1.Location = new System.Drawing.Point(32720, 6402);
-            this.kitaplar_sayfasi1.Margin = new System.Windows.Forms.Padding(1164, 872, 1164, 872);
+            this.kitaplar_sayfasi1.Location = new System.Drawing.Point(32720, 8372);
+            this.kitaplar_sayfasi1.Margin = new System.Windows.Forms.Padding(1552, 1140, 1552, 1140);
             this.kitaplar_sayfasi1.Name = "kitaplar_sayfasi1";
             this.kitaplar_sayfasi1.Size = new System.Drawing.Size(65535, 65535);
             this.kitaplar_sayfasi1.TabIndex = 3;
             // 
             // uye_ekle_sil_sayfasi1
             // 
-            this.uye_ekle_sil_sayfasi1.Location = new System.Drawing.Point(32720, 6402);
-            this.uye_ekle_sil_sayfasi1.Margin = new System.Windows.Forms.Padding(3679, 2550, 3679, 2550);
+            this.uye_ekle_sil_sayfasi1.Location = new System.Drawing.Point(32720, 8372);
+            this.uye_ekle_sil_sayfasi1.Margin = new System.Windows.Forms.Padding(4905, 3335, 4905, 3335);
             this.uye_ekle_sil_sayfasi1.Name = "uye_ekle_sil_sayfasi1";
             this.uye_ekle_sil_sayfasi1.Size = new System.Drawing.Size(65535, 65535);
             this.uye_ekle_sil_sayfasi1.TabIndex = 2;
             // 
+            // kitaplar_sayfasi2
+            // 
+            this.kitaplar_sayfasi2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.kitaplar_sayfasi2.Location = new System.Drawing.Point(219, 31);
+            this.kitaplar_sayfasi2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kitaplar_sayfasi2.Name = "kitaplar_sayfasi2";
+            this.kitaplar_sayfasi2.Size = new System.Drawing.Size(841, 564);
+            this.kitaplar_sayfasi2.TabIndex = 5;
+            // 
+            // kitap_al_iade_et_sayfasi2
+            // 
+            this.kitap_al_iade_et_sayfasi2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.kitap_al_iade_et_sayfasi2.Location = new System.Drawing.Point(219, 31);
+            this.kitap_al_iade_et_sayfasi2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kitap_al_iade_et_sayfasi2.Name = "kitap_al_iade_et_sayfasi2";
+            this.kitap_al_iade_et_sayfasi2.Size = new System.Drawing.Size(841, 564);
+            this.kitap_al_iade_et_sayfasi2.TabIndex = 6;
+            // 
             // uye_ekle_sil_sayfasi2
             // 
-            this.uye_ekle_sil_sayfasi2.Location = new System.Drawing.Point(220, 31);
-            this.uye_ekle_sil_sayfasi2.Margin = new System.Windows.Forms.Padding(4);
+            this.uye_ekle_sil_sayfasi2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.uye_ekle_sil_sayfasi2.Location = new System.Drawing.Point(219, 31);
+            this.uye_ekle_sil_sayfasi2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uye_ekle_sil_sayfasi2.Name = "uye_ekle_sil_sayfasi2";
             this.uye_ekle_sil_sayfasi2.Size = new System.Drawing.Size(841, 564);
-            this.uye_ekle_sil_sayfasi2.TabIndex = 5;
+            this.uye_ekle_sil_sayfasi2.TabIndex = 7;
             // 
-            // guna2ShadowForm1
+            // bos_sayfa1
             // 
-            this.guna2ShadowForm1.TargetForm = this;
+            this.bos_sayfa1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.bos_sayfa1.Location = new System.Drawing.Point(218, 31);
+            this.bos_sayfa1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bos_sayfa1.Name = "bos_sayfa1";
+            this.bos_sayfa1.Size = new System.Drawing.Size(841, 564);
+            this.bos_sayfa1.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1072, 608);
+            this.Controls.Add(this.bos_sayfa1);
             this.Controls.Add(this.uye_ekle_sil_sayfasi2);
+            this.Controls.Add(this.kitap_al_iade_et_sayfasi2);
+            this.Controls.Add(this.kitaplar_sayfasi2);
             this.Controls.Add(this.kitap_al_iade_et_sayfasi1);
             this.Controls.Add(this.kitaplar_sayfasi1);
             this.Controls.Add(this.uye_ekle_sil_sayfasi1);
@@ -268,9 +297,11 @@
         private uye_ekle_sil_sayfasi uye_ekle_sil_sayfasi1;
         private kitaplar_sayfasi kitaplar_sayfasi1;
         private kitap_al_iade_et_sayfasi kitap_al_iade_et_sayfasi1;
-        private uye_ekle_sil_sayfasi uye_ekle_sil_sayfasi2;
         public Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
-        private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
+        private uye_ekle_sil_sayfasi uye_ekle_sil_sayfasi2;
+        private kitap_al_iade_et_sayfasi kitap_al_iade_et_sayfasi2;
+        private kitaplar_sayfasi kitaplar_sayfasi2;
+        private bos_sayfa bos_sayfa1;
     }
 }
 
