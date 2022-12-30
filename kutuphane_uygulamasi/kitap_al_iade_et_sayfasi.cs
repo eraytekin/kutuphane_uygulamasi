@@ -25,10 +25,11 @@ namespace kutuphane_uygulamasi
         string get_customer_name;
         string get_customer_surname;
         string get_customer_number;
+        string get_urun_durum;
 
         private void kitap_ekle_btn_Click(object sender, EventArgs e)
         {
-            if (get_book_name_textbox.Text == "" || get_customer_name_textbox.Text == "" || get_customer_surname_textbox.Text == "" || get_customer_number_textbox.Text == "")
+            if (get_book_name_textbox.Text == "" || get_customer_name_textbox.Text == "" || get_customer_surname_textbox.Text == "" || get_customer_number_textbox.Text == "" || get_urun_durum_combobox.Text == "")
             {
                 MessageBox.Show("Lütfen Boş Veri Girişi Yapmayınız !", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Question);
             }
@@ -38,8 +39,9 @@ namespace kutuphane_uygulamasi
                 get_customer_name = get_customer_name_textbox.Text;
                 get_customer_surname = get_customer_surname_textbox.Text;
                 get_customer_number = get_customer_number_textbox.Text;
+                get_urun_durum = get_urun_durum_combobox.Text;
 
-                get_delete_box.Items.Add(String.Join(" / ", get_book_name, get_customer_name, get_customer_surname, get_customer_number));
+                get_delete_box.Items.Add(String.Join(" / ", get_book_name, get_customer_name, get_customer_surname, get_customer_number, get_urun_durum));
 
                 get_book_name_textbox.Text = "";
                 get_customer_name_textbox.Text = "";
@@ -58,6 +60,9 @@ namespace kutuphane_uygulamasi
             get_customer_number_textbox.Text = "";
         }
 
-        
+        private void get_customer_number_textbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
     }
 }

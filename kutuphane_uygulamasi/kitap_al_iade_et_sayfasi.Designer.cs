@@ -41,6 +41,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.kitap_ekle_btn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.get_urun_durum_combobox = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -145,13 +147,14 @@
             this.get_customer_number_textbox.ForeColor = System.Drawing.Color.DimGray;
             this.get_customer_number_textbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(82)))), ((int)(((byte)(237)))));
             this.get_customer_number_textbox.Location = new System.Drawing.Point(378, 224);
-            this.get_customer_number_textbox.MaxLength = 30;
+            this.get_customer_number_textbox.MaxLength = 10;
             this.get_customer_number_textbox.Name = "get_customer_number_textbox";
             this.get_customer_number_textbox.PasswordChar = '\0';
             this.get_customer_number_textbox.PlaceholderText = "";
             this.get_customer_number_textbox.SelectedText = "";
             this.get_customer_number_textbox.Size = new System.Drawing.Size(200, 24);
             this.get_customer_number_textbox.TabIndex = 4;
+            this.get_customer_number_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.get_customer_number_textbox_KeyPress);
             // 
             // get_customer_surname_textbox
             // 
@@ -228,7 +231,7 @@
             this.kitap_ekle_btn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.kitap_ekle_btn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kitap_ekle_btn.ForeColor = System.Drawing.Color.White;
-            this.kitap_ekle_btn.Location = new System.Drawing.Point(394, 271);
+            this.kitap_ekle_btn.Location = new System.Drawing.Point(394, 329);
             this.kitap_ekle_btn.Name = "kitap_ekle_btn";
             this.kitap_ekle_btn.ShadowDecoration.Depth = 5;
             this.kitap_ekle_btn.ShadowDecoration.Enabled = true;
@@ -251,7 +254,7 @@
             this.guna2Button1.FillColor = System.Drawing.Color.Red;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(484, 271);
+            this.guna2Button1.Location = new System.Drawing.Point(484, 329);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Depth = 5;
             this.guna2Button1.ShadowDecoration.Enabled = true;
@@ -261,13 +264,46 @@
             this.guna2Button1.Text = "Kayıt Sil";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
+            // get_urun_durum_combobox
+            // 
+            this.get_urun_durum_combobox.BackColor = System.Drawing.Color.Transparent;
+            this.get_urun_durum_combobox.BorderRadius = 11;
+            this.get_urun_durum_combobox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.get_urun_durum_combobox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.get_urun_durum_combobox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.get_urun_durum_combobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.get_urun_durum_combobox.FillColor = System.Drawing.SystemColors.ButtonFace;
+            this.get_urun_durum_combobox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(82)))), ((int)(((byte)(237)))));
+            this.get_urun_durum_combobox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(82)))), ((int)(((byte)(237)))));
+            this.get_urun_durum_combobox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.get_urun_durum_combobox.ForeColor = System.Drawing.Color.DimGray;
+            this.get_urun_durum_combobox.ItemHeight = 30;
+            this.get_urun_durum_combobox.Items.AddRange(new object[] {
+            "Alındı",
+            "İade Edildi"});
+            this.get_urun_durum_combobox.Location = new System.Drawing.Point(378, 276);
+            this.get_urun_durum_combobox.Name = "get_urun_durum_combobox";
+            this.get_urun_durum_combobox.Size = new System.Drawing.Size(200, 36);
+            this.get_urun_durum_combobox.TabIndex = 10;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(385, 260);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Kitap Durumu";
+            // 
             // kitap_al_iade_et_sayfasi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.Controls.Add(this.get_urun_durum_combobox);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.kitap_ekle_btn);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -302,5 +338,7 @@
         private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2Button kitap_ekle_btn;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2ComboBox get_urun_durum_combobox;
+        private System.Windows.Forms.Label label6;
     }
 }

@@ -57,6 +57,9 @@ namespace kutuphane_uygulamasi
             kitap_turu_textbox.Text = "";
         }
 
-        
+        private void sayfa_sayisi_textbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
     }
 }

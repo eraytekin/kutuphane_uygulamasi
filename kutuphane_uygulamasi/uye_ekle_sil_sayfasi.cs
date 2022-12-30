@@ -55,5 +55,10 @@ namespace kutuphane_uygulamasi
             customer_surname_textbox.Text = "";
             customer_number_textbox.Text = "";
         }
+
+        private void customer_number_textbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
     }
 }

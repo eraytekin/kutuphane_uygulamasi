@@ -16,11 +16,13 @@ namespace kutuphane_uygulamasi
         {
             InitializeComponent();
         }
-
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            kitaplar_sayfasi3.BringToFront();
+        }
         private void minimalize_button_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
-            kitaplar_sayfasi2.BringToFront();
         }
 
         private void close_button_Click(object sender, EventArgs e)
@@ -30,19 +32,19 @@ namespace kutuphane_uygulamasi
 
         private void kitaplar_btn_Click(object sender, EventArgs e)
         {
-            kitaplar_sayfasi2.BringToFront();
+            kitaplar_sayfasi3.BringToFront();
         }
 
         private void uye_ekle_sil_Click(object sender, EventArgs e)
         {
-            uye_ekle_sil_sayfasi2.BringToFront();
+            uye_ekle_sil_sayfasi3.BringToFront();
         }
 
         private void kitap_al_iadeet_Click(object sender, EventArgs e)
         {
-            kitap_al_iade_et_sayfasi2.BringToFront();
+            kitap_al_iade_et_sayfasi3.BringToFront();
         }
 
-       
+        
     }
 }

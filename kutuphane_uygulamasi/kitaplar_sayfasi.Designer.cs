@@ -170,6 +170,7 @@
             this.sayfa_sayisi_textbox.SelectedText = "";
             this.sayfa_sayisi_textbox.Size = new System.Drawing.Size(200, 24);
             this.sayfa_sayisi_textbox.TabIndex = 3;
+            this.sayfa_sayisi_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.sayfa_sayisi_textbox_KeyPress);
             // 
             // label4
             // 

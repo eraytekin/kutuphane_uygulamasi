@@ -173,12 +173,13 @@
             this.customer_number_textbox.SelectedText = "";
             this.customer_number_textbox.Size = new System.Drawing.Size(200, 24);
             this.customer_number_textbox.TabIndex = 10;
+            this.customer_number_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.customer_number_textbox_KeyPress);
             // 
             // add_button
             // 
             this.add_button.Animated = true;
             this.add_button.AutoRoundedCorners = true;
-            this.add_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.add_button.BackColor = System.Drawing.Color.Transparent;
             this.add_button.BorderRadius = 10;
             this.add_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.add_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -201,7 +202,7 @@
             // 
             this.delete_button.Animated = true;
             this.delete_button.AutoRoundedCorners = true;
-            this.delete_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.delete_button.BackColor = System.Drawing.Color.Transparent;
             this.delete_button.BorderRadius = 10;
             this.delete_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.delete_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
