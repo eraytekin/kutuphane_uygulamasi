@@ -39,12 +39,12 @@
             this.minimalize_button = new FontAwesome.Sharp.IconButton();
             this.close_button = new FontAwesome.Sharp.IconButton();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.uye_ekle_sil_sayfasi2 = new kutuphane_uygulamasi.uye_ekle_sil_sayfasi();
+            this.kitap_al_iade_et_sayfasi2 = new kutuphane_uygulamasi.kitap_al_iade_et_sayfasi();
+            this.kitaplar_sayfasi2 = new kutuphane_uygulamasi.kitaplar_sayfasi();
             this.kitap_al_iade_et_sayfasi1 = new kutuphane_uygulamasi.kitap_al_iade_et_sayfasi();
             this.kitaplar_sayfasi1 = new kutuphane_uygulamasi.kitaplar_sayfasi();
             this.uye_ekle_sil_sayfasi1 = new kutuphane_uygulamasi.uye_ekle_sil_sayfasi();
-            this.kitaplar_sayfasi2 = new kutuphane_uygulamasi.kitaplar_sayfasi();
-            this.kitap_al_iade_et_sayfasi2 = new kutuphane_uygulamasi.kitap_al_iade_et_sayfasi();
-            this.uye_ekle_sil_sayfasi2 = new kutuphane_uygulamasi.uye_ekle_sil_sayfasi();
             this.bos_sayfa1 = new kutuphane_uygulamasi.bos_sayfa();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -197,61 +197,64 @@
             // 
             this.guna2AnimateWindow1.TargetForm = this;
             // 
+            // uye_ekle_sil_sayfasi2
+            // 
+            this.uye_ekle_sil_sayfasi2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.uye_ekle_sil_sayfasi2.Location = new System.Drawing.Point(213, 27);
+            this.uye_ekle_sil_sayfasi2.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.uye_ekle_sil_sayfasi2.Name = "uye_ekle_sil_sayfasi2";
+            this.uye_ekle_sil_sayfasi2.Size = new System.Drawing.Size(1495, 965);
+            this.uye_ekle_sil_sayfasi2.TabIndex = 7;
+            // 
+            // kitap_al_iade_et_sayfasi2
+            // 
+            this.kitap_al_iade_et_sayfasi2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.kitap_al_iade_et_sayfasi2.Location = new System.Drawing.Point(213, 27);
+            this.kitap_al_iade_et_sayfasi2.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.kitap_al_iade_et_sayfasi2.Name = "kitap_al_iade_et_sayfasi2";
+            this.kitap_al_iade_et_sayfasi2.Size = new System.Drawing.Size(1495, 965);
+            this.kitap_al_iade_et_sayfasi2.TabIndex = 6;
+            // 
+            // kitaplar_sayfasi2
+            // 
+            this.kitaplar_sayfasi2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.kitaplar_sayfasi2.Location = new System.Drawing.Point(213, 27);
+            this.kitaplar_sayfasi2.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.kitaplar_sayfasi2.Name = "kitaplar_sayfasi2";
+            this.kitaplar_sayfasi2.Size = new System.Drawing.Size(1495, 965);
+            this.kitaplar_sayfasi2.TabIndex = 5;
+            // 
             // kitap_al_iade_et_sayfasi1
             // 
-            this.kitap_al_iade_et_sayfasi1.Location = new System.Drawing.Point(32720, 8372);
-            this.kitap_al_iade_et_sayfasi1.Margin = new System.Windows.Forms.Padding(1552, 1140, 1552, 1140);
+            this.kitap_al_iade_et_sayfasi1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.kitap_al_iade_et_sayfasi1.Location = new System.Drawing.Point(32720, 14317);
+            this.kitap_al_iade_et_sayfasi1.Margin = new System.Windows.Forms.Padding(2759, 1950, 2759, 1950);
             this.kitap_al_iade_et_sayfasi1.Name = "kitap_al_iade_et_sayfasi1";
             this.kitap_al_iade_et_sayfasi1.Size = new System.Drawing.Size(65535, 65535);
             this.kitap_al_iade_et_sayfasi1.TabIndex = 4;
             // 
             // kitaplar_sayfasi1
             // 
-            this.kitaplar_sayfasi1.Location = new System.Drawing.Point(32720, 8372);
-            this.kitaplar_sayfasi1.Margin = new System.Windows.Forms.Padding(1552, 1140, 1552, 1140);
+            this.kitaplar_sayfasi1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.kitaplar_sayfasi1.Location = new System.Drawing.Point(32720, 14317);
+            this.kitaplar_sayfasi1.Margin = new System.Windows.Forms.Padding(2759, 1950, 2759, 1950);
             this.kitaplar_sayfasi1.Name = "kitaplar_sayfasi1";
             this.kitaplar_sayfasi1.Size = new System.Drawing.Size(65535, 65535);
             this.kitaplar_sayfasi1.TabIndex = 3;
             // 
             // uye_ekle_sil_sayfasi1
             // 
-            this.uye_ekle_sil_sayfasi1.Location = new System.Drawing.Point(32720, 8372);
-            this.uye_ekle_sil_sayfasi1.Margin = new System.Windows.Forms.Padding(4905, 3335, 4905, 3335);
+            this.uye_ekle_sil_sayfasi1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
+            this.uye_ekle_sil_sayfasi1.Location = new System.Drawing.Point(32720, 14317);
+            this.uye_ekle_sil_sayfasi1.Margin = new System.Windows.Forms.Padding(8720, 5703, 8720, 5703);
             this.uye_ekle_sil_sayfasi1.Name = "uye_ekle_sil_sayfasi1";
             this.uye_ekle_sil_sayfasi1.Size = new System.Drawing.Size(65535, 65535);
             this.uye_ekle_sil_sayfasi1.TabIndex = 2;
             // 
-            // kitaplar_sayfasi2
-            // 
-            this.kitaplar_sayfasi2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
-            this.kitaplar_sayfasi2.Location = new System.Drawing.Point(219, 31);
-            this.kitaplar_sayfasi2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.kitaplar_sayfasi2.Name = "kitaplar_sayfasi2";
-            this.kitaplar_sayfasi2.Size = new System.Drawing.Size(841, 564);
-            this.kitaplar_sayfasi2.TabIndex = 5;
-            // 
-            // kitap_al_iade_et_sayfasi2
-            // 
-            this.kitap_al_iade_et_sayfasi2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
-            this.kitap_al_iade_et_sayfasi2.Location = new System.Drawing.Point(219, 31);
-            this.kitap_al_iade_et_sayfasi2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.kitap_al_iade_et_sayfasi2.Name = "kitap_al_iade_et_sayfasi2";
-            this.kitap_al_iade_et_sayfasi2.Size = new System.Drawing.Size(841, 564);
-            this.kitap_al_iade_et_sayfasi2.TabIndex = 6;
-            // 
-            // uye_ekle_sil_sayfasi2
-            // 
-            this.uye_ekle_sil_sayfasi2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
-            this.uye_ekle_sil_sayfasi2.Location = new System.Drawing.Point(219, 31);
-            this.uye_ekle_sil_sayfasi2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.uye_ekle_sil_sayfasi2.Name = "uye_ekle_sil_sayfasi2";
-            this.uye_ekle_sil_sayfasi2.Size = new System.Drawing.Size(841, 564);
-            this.uye_ekle_sil_sayfasi2.TabIndex = 7;
-            // 
             // bos_sayfa1
             // 
             this.bos_sayfa1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(214)))), ((int)(((byte)(224)))));
-            this.bos_sayfa1.Location = new System.Drawing.Point(218, 31);
+            this.bos_sayfa1.Location = new System.Drawing.Point(213, 27);
             this.bos_sayfa1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bos_sayfa1.Name = "bos_sayfa1";
             this.bos_sayfa1.Size = new System.Drawing.Size(841, 564);

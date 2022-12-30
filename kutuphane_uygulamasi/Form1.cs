@@ -20,7 +20,7 @@ namespace kutuphane_uygulamasi
         private void minimalize_button_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
-            bos_sayfa1.BringToFront();
+            kitaplar_sayfasi2.BringToFront();
         }
 
         private void close_button_Click(object sender, EventArgs e)
