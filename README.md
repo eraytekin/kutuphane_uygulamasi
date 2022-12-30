@@ -1,3 +1,3 @@
 # NOT !
 
-> main branch'i ilk oluşturulan branch. master ise projeyi güncelledikçe pushladığım güncel branch. Default branch olarak masteri ayarladım ama indirirken dikkat edin.
+> main branch'i ilk oluşturulan branch. master ise projeyi güncelledikçe pushladığım güncel branch. Default branch olarak masteri ayarladım ama indirirken maini indirmeyin dikkat edin.
